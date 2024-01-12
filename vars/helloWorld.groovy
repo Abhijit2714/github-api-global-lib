@@ -1,3 +1,3 @@
-def call(Map config = [:]) {
-    sh "echo Employee name is Abhijit Dhamne. Organization is Infivit Technologies"
+def call(String name,String name) {
+    sh "echo Employee name is ${name}. Organization is {name}"
 }
