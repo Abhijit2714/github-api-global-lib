@@ -1,3 +1,3 @@
-def call(String name, String dayOfweek) {
+def call(Map config = [:]) {
     sh "Name of employee is ${name}. and organization name is ${dayOfweek}."
 }
